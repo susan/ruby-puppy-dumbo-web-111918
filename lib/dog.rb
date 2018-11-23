@@ -1,6 +1,6 @@
 require 'pry'
 class Dog
-
+  attr_reader :name
   @@all = [] #keeps track of puppy count
 
   def initialize(name)
@@ -10,7 +10,7 @@ class Dog
 
    def self.all
      @@all.each do |name|
-       puts "#{name}"
+       puts "name"
      end
    end
 
