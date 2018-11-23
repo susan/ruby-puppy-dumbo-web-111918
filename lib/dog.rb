@@ -3,7 +3,8 @@ class Dog
 
   @@all = [] #keeps track of puppy count
 
-  def initialize
+  def initialize(name)
+    @name = name
     @@all << self
   end
   #
