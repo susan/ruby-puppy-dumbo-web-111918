@@ -4,12 +4,12 @@ class Dog
   @@all = [] #keeps track of puppy count
 
   def initialize
-    
+
   end
 
-  self.all
+  def self.all
     @@all
   end
-  
+
 end
 binding.pry
